@@ -1,0 +1,1 @@
+This is NGO app where you see about lsstrust which help to people
