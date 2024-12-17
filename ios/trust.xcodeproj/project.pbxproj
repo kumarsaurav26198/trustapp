@@ -9,15 +9,16 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* trustTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* trustTests.m */; };
 		0C80B921A6F3F58F76C31292 /* libPods-trust.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-trust.a */; };
+		0FE3E45D776D9CB52BC5A061 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 266EF0BDFFC74F862D38B2FF /* PrivacyInfo.xcprivacy */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-trust-trustTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-trust-trustTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		4FF55CDCC59443BF932A9756 /* Kalam-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2E3036731994D48A1395495 /* Kalam-Bold.ttf */; };
-		AC3F68A051F0424E84622083 /* Kalam-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42B451C03E12466998C14F82 /* Kalam-Light.ttf */; };
-		1F6E03EED156412EB037C038 /* Kalam-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6CB44E810E204945A566ECCE /* Kalam-Regular.ttf */; };
-		D081BA1A712F4F46A210FB9A /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 697D28AB2C8042CD8E0263DF /* OFL.txt */; };
+		903CBAB7CC764F3FA3763D55 /* Kalam-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72EDE5F351E14C8694656D7B /* Kalam-Bold.ttf */; };
+		9110681BD203460AA691EDD1 /* Kalam-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48AF231531F24E3BB2640813 /* Kalam-Light.ttf */; };
+		5E2F3E96DD554B10B9C5FFEB /* Kalam-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74B38C1259244FE6B7582728 /* Kalam-Regular.ttf */; };
+		7A3C716F4BF74ED28C22F1BE /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 59ABFB4F16A34531952C6B7D /* OFL.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = trust/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = trust/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-trust-trustTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-trust-trustTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		266EF0BDFFC74F862D38B2FF /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = trust/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-trust.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trust.debug.xcconfig"; path = "Target Support Files/Pods-trust/Pods-trust.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-trust.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trust.release.xcconfig"; path = "Target Support Files/Pods-trust/Pods-trust.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-trust-trustTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trust-trustTests.debug.xcconfig"; path = "Target Support Files/Pods-trust-trustTests/Pods-trust-trustTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -49,10 +51,10 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = trust/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-trust-trustTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trust-trustTests.release.xcconfig"; path = "Target Support Files/Pods-trust-trustTests/Pods-trust-trustTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F2E3036731994D48A1395495 /* Kalam-Bold.ttf */ = {isa = PBXFileReference; name = "Kalam-Bold.ttf"; path = "../Assests/Kalam/Kalam-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		42B451C03E12466998C14F82 /* Kalam-Light.ttf */ = {isa = PBXFileReference; name = "Kalam-Light.ttf"; path = "../Assests/Kalam/Kalam-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6CB44E810E204945A566ECCE /* Kalam-Regular.ttf */ = {isa = PBXFileReference; name = "Kalam-Regular.ttf"; path = "../Assests/Kalam/Kalam-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		697D28AB2C8042CD8E0263DF /* OFL.txt */ = {isa = PBXFileReference; name = "OFL.txt"; path = "../Assests/Kalam/OFL.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		72EDE5F351E14C8694656D7B /* Kalam-Bold.ttf */ = {isa = PBXFileReference; name = "Kalam-Bold.ttf"; path = "../Assests/font/Kalam-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		48AF231531F24E3BB2640813 /* Kalam-Light.ttf */ = {isa = PBXFileReference; name = "Kalam-Light.ttf"; path = "../Assests/font/Kalam-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		74B38C1259244FE6B7582728 /* Kalam-Regular.ttf */ = {isa = PBXFileReference; name = "Kalam-Regular.ttf"; path = "../Assests/font/Kalam-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		59ABFB4F16A34531952C6B7D /* OFL.txt */ = {isa = PBXFileReference; name = "OFL.txt"; path = "../Assests/font/OFL.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				266EF0BDFFC74F862D38B2FF /* PrivacyInfo.xcprivacy */,
 			);
 			name = trust;
 			sourceTree = "<group>";
@@ -114,6 +117,18 @@
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-trust-trustTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		311219238F9E4D61AFF6D6E2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				72EDE5F351E14C8694656D7B /* Kalam-Bold.ttf */,
+				48AF231531F24E3BB2640813 /* Kalam-Light.ttf */,
+				74B38C1259244FE6B7582728 /* Kalam-Regular.ttf */,
+				59ABFB4F16A34531952C6B7D /* OFL.txt */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -158,18 +173,6 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		311219238F9E4D61AFF6D6E2 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				F2E3036731994D48A1395495 /* Kalam-Bold.ttf */,
-				42B451C03E12466998C14F82 /* Kalam-Light.ttf */,
-				6CB44E810E204945A566ECCE /* Kalam-Regular.ttf */,
-				697D28AB2C8042CD8E0263DF /* OFL.txt */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -266,10 +269,11 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				4FF55CDCC59443BF932A9756 /* Kalam-Bold.ttf in Resources */,
-				AC3F68A051F0424E84622083 /* Kalam-Light.ttf in Resources */,
-				1F6E03EED156412EB037C038 /* Kalam-Regular.ttf in Resources */,
-				D081BA1A712F4F46A210FB9A /* OFL.txt in Resources */,
+				0FE3E45D776D9CB52BC5A061 /* PrivacyInfo.xcprivacy in Resources */,
+				903CBAB7CC764F3FA3763D55 /* Kalam-Bold.ttf in Resources */,
+				9110681BD203460AA691EDD1 /* Kalam-Light.ttf in Resources */,
+				5E2F3E96DD554B10B9C5FFEB /* Kalam-Regular.ttf in Resources */,
+				7A3C716F4BF74ED28C22F1BE /* OFL.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,6 +546,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -569,6 +574,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CXX = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
@@ -588,6 +594,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -607,7 +615,13 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -615,6 +629,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CC = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -642,6 +657,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				CXX = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
@@ -654,6 +670,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD = "";
+				LDPLUSPLUS = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -672,7 +690,13 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

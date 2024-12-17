@@ -2,19 +2,19 @@
   "migIndex": 1,
   "data": [
     {
-      "path": "Assests/Kalam/Kalam-Bold.ttf",
+      "path": "Assests/font/Kalam-Bold.ttf",
       "sha1": "2a559015d425e2197d24dd64ec5f575b713c008f"
     },
     {
-      "path": "Assests/Kalam/Kalam-Light.ttf",
+      "path": "Assests/font/Kalam-Light.ttf",
       "sha1": "309afbdc02fed52d623f9870114f826f43623da7"
     },
     {
-      "path": "Assests/Kalam/Kalam-Regular.ttf",
+      "path": "Assests/font/Kalam-Regular.ttf",
       "sha1": "8780563680372a86968c46c50cba05143654fe49"
     },
     {
-      "path": "Assests/Kalam/OFL.txt",
+      "path": "Assests/font/OFL.txt",
       "sha1": "f0c490b6a85274b4b5115f462aac1bb8ace48770"
     }
   ]
