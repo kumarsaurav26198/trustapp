@@ -7,6 +7,7 @@ import {
   Image,
   Flex,
 } from 'native-base';
+import { LogBox, StyleSheet, SafeAreaView } from 'react-native';
 import React from 'react';
 import {createDrawerNavigator} from '@react-navigation/drawer';
 import SideNav from './Screen/SideNav';
@@ -65,6 +66,9 @@ const CustomHeader = ({navigation}) => (
 function App() {
   return (
     <NativeBaseProvider>
+      <SafeAreaView style={styles.safeArea}>
+
+
       <NavigationContainer>
         <Drawer.Navigator
           drawerContent={props => <SideNav {...props} />}
@@ -101,8 +105,15 @@ function App() {
           <Drawer.Screen name="Donation" component={Donation} />
         </Drawer.Navigator>
       </NavigationContainer>
+      </SafeAreaView>
     </NativeBaseProvider>
   );
 }
 
 export default App;
+const styles = StyleSheet.create({
+  safeArea: {
+    flex: 1,
+    backgroundColor: '#1d7ac4',
+  },
+});

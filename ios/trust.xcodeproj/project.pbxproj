@@ -13,12 +13,12 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		5E2F3E96DD554B10B9C5FFEB /* Kalam-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74B38C1259244FE6B7582728 /* Kalam-Regular.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-trust-trustTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-trust-trustTests.a */; };
+		7A3C716F4BF74ED28C22F1BE /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 59ABFB4F16A34531952C6B7D /* OFL.txt */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		903CBAB7CC764F3FA3763D55 /* Kalam-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72EDE5F351E14C8694656D7B /* Kalam-Bold.ttf */; };
 		9110681BD203460AA691EDD1 /* Kalam-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48AF231531F24E3BB2640813 /* Kalam-Light.ttf */; };
-		5E2F3E96DD554B10B9C5FFEB /* Kalam-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74B38C1259244FE6B7582728 /* Kalam-Regular.ttf */; };
-		7A3C716F4BF74ED28C22F1BE /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 59ABFB4F16A34531952C6B7D /* OFL.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,16 +45,16 @@
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-trust-trustTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-trust-trustTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		266EF0BDFFC74F862D38B2FF /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = trust/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-trust.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trust.debug.xcconfig"; path = "Target Support Files/Pods-trust/Pods-trust.debug.xcconfig"; sourceTree = "<group>"; };
+		48AF231531F24E3BB2640813 /* Kalam-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kalam-Light.ttf"; path = "../Assests/font/Kalam-Light.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-trust.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trust.release.xcconfig"; path = "Target Support Files/Pods-trust/Pods-trust.release.xcconfig"; sourceTree = "<group>"; };
+		59ABFB4F16A34531952C6B7D /* OFL.txt */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = OFL.txt; path = ../Assests/font/OFL.txt; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-trust-trustTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trust-trustTests.debug.xcconfig"; path = "Target Support Files/Pods-trust-trustTests/Pods-trust-trustTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-trust.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-trust.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72EDE5F351E14C8694656D7B /* Kalam-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kalam-Bold.ttf"; path = "../Assests/font/Kalam-Bold.ttf"; sourceTree = "<group>"; };
+		74B38C1259244FE6B7582728 /* Kalam-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Kalam-Regular.ttf"; path = "../Assests/font/Kalam-Regular.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = trust/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-trust-trustTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trust-trustTests.release.xcconfig"; path = "Target Support Files/Pods-trust-trustTests/Pods-trust-trustTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		72EDE5F351E14C8694656D7B /* Kalam-Bold.ttf */ = {isa = PBXFileReference; name = "Kalam-Bold.ttf"; path = "../Assests/font/Kalam-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		48AF231531F24E3BB2640813 /* Kalam-Light.ttf */ = {isa = PBXFileReference; name = "Kalam-Light.ttf"; path = "../Assests/font/Kalam-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		74B38C1259244FE6B7582728 /* Kalam-Regular.ttf */ = {isa = PBXFileReference; name = "Kalam-Regular.ttf"; path = "../Assests/font/Kalam-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		59ABFB4F16A34531952C6B7D /* OFL.txt */ = {isa = PBXFileReference; name = "OFL.txt"; path = "../Assests/font/OFL.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
