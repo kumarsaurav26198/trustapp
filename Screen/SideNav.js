@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {Flex, Text, VStack, Pressable, ScrollView} from 'native-base';
 import Home from 'react-native-vector-icons/Entypo';
+import Language from 'react-native-vector-icons/FontAwesome';
 import About from 'react-native-vector-icons/AntDesign';
 import Annual from 'react-native-vector-icons/MaterialIcons';
 import Certificate from 'react-native-vector-icons/MaterialCommunityIcons';
@@ -55,7 +56,7 @@ const SideNav = ({navigation}) => {
                     fontSize="lg"
                     fontWeight={selected === 'Home' ? 'bold' : 'normal'}
                     color={selected === 'Home' ? '#F56A02' : 'black'}>
-                    Hello
+                    Home
                   </Text>
                 </Flex>
               );
@@ -91,6 +92,40 @@ const SideNav = ({navigation}) => {
                     fontWeight={selected === 'About' ? 'bold' : 'normal'}
                     color={selected === 'About' ? '#F56A02' : 'black'}>
                     About
+                  </Text>
+                </Flex>
+              );
+            }}
+          </Pressable>
+          <Pressable onPress={() => handlePress('language')}>
+            {({isHovered, isPressed}) => {
+              return (
+                <Flex
+                  style={{gap: 18}}
+                  flexDirection={'row'}
+                  padding={3}
+                  alignItems={'center'}
+                  borderRadius={selected === 'language' ? 8 : 0}
+                  bg={
+                    selected === 'language'
+                      ? 'white'
+                      : isPressed
+                      ? 'coolGray.200'
+                      : isHovered
+                      ? 'coolGray.100'
+                      : 'white'
+                  }
+                  shadow={selected === 'language' ? 2 : 0.1}>
+                  <Language
+                    name="language"
+                    size={24}
+                    color={selected === 'language' ? '#F56A02' : 'black'}
+                  />
+                  <Text
+                    fontSize="lg"
+                    fontWeight={selected === 'language' ? 'bold' : 'normal'}
+                    color={selected === 'language' ? '#F56A02' : 'black'}>
+                    Language
                   </Text>
                 </Flex>
               );
