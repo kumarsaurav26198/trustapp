@@ -37,6 +37,8 @@ import Fandq from './Screen/FAQ';
 import Members from './Screen/Members';
 import Provission from './Screen/80g_12a';
 import Donation from './Screen/Donation';
+import Language from './Screen/Language';
+import { LanguageProvider } from './context/LanguageContext';
 
 const Drawer = createDrawerNavigator();
 
@@ -64,11 +66,12 @@ const CustomHeader = ({navigation}) => (
 );
 
 function App() {
+  LogBox.ignoreLogs([ 'Warning: ...' ]);
+  LogBox.ignoreAllLogs();
   return (
     <NativeBaseProvider>
+      <LanguageProvider>
       <SafeAreaView style={styles.safeArea}>
-
-
       <NavigationContainer>
         <Drawer.Navigator
           drawerContent={props => <SideNav {...props} />}
@@ -82,6 +85,7 @@ function App() {
           })}>
           <Drawer.Screen name="Splash" component={Splash} />
           <Drawer.Screen name="Home" component={Home} />
+          <Drawer.Screen name="language" component={Language} />
           <Drawer.Screen name="Certificate" component={Certificate} />
           <Drawer.Screen name="Gallery" component={Gallery} />
           <Drawer.Screen name="Events" component={Events} />
@@ -106,6 +110,7 @@ function App() {
         </Drawer.Navigator>
       </NavigationContainer>
       </SafeAreaView>
+      </LanguageProvider>
     </NativeBaseProvider>
   );
 }
