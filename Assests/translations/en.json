@@ -1,6 +1,20 @@
 {
     "select_language": "Select Language",
     "language_english": "English",
-    "language_hindi": "हिन्दी"
+    "language_hindi": "हिन्दी",
+    "Home":"Home",
+    "About":"About",
+    "language": "Language",
+    "Annual_Report":"Annual Report",
+    "Members":"Members",
+    "Donation":"Donation",
+    "Certification":"Certification",
+    "Gallery":"Gallery",
+    "Events":"Events",
+    "Media":"Media",
+    "Service":"Service",
+    "Privacy_Policy":" Privacy Policy",
+    "Contact_us":" Contact US",
+    "FAQs":"FAQs"
   }
   

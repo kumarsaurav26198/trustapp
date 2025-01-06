@@ -1,6 +1,19 @@
 {
-    "select_language": "भाषा चुनें",
-    "language_english": "English",
-    "language_hindi": "हिन्दी"
-  }
-  
+  "select_language": "भाषा चुनें",
+  "language_english": "English",
+  "language_hindi": "हिन्दी",
+  "Home": "होम",
+  "About": "बारे में",
+  "language": "भाषा",
+  "Annual_Report": "वार्षिक रिपोर्ट",
+  "Members": "सदस्य",
+  "Donation": "दान",
+  "Certification": "प्रमाणपत्र",
+  "Gallery": "गैलरी",
+  "Events": "इवेंट्स",
+  "Media": "मीडिया",
+  "Service": "सेवा",
+  "Privacy_Policy": "गोपनीयता नीति",
+  "Contact_us": "संपर्क करें",
+  "FAQs": "FAQs"
+}
