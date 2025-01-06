@@ -1,4 +1,4 @@
-import {NavigationContainer} from '@react-navigation/native';
+import { NavigationContainer } from '@react-navigation/native';
 import {
   NativeBaseProvider,
   Box,
@@ -9,7 +9,7 @@ import {
 } from 'native-base';
 import { LogBox, StyleSheet, SafeAreaView } from 'react-native';
 import React from 'react';
-import {createDrawerNavigator} from '@react-navigation/drawer';
+import { createDrawerNavigator } from '@react-navigation/drawer';
 import SideNav from './Screen/SideNav';
 import Home from './Screen/Home';
 import Certificate from './Screen/Certificate';
@@ -18,7 +18,7 @@ import Events from './Screen/Events';
 import About from './Screen/About';
 import Contact from './Screen/Contact';
 import Splash from './Screen/Splash';
-import {TouchableWithoutFeedback} from 'react-native-gesture-handler';
+import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
 import Gallery from './Screen/Galary';
 import Media from './Screen/Media';
 import Annual from './Screen/Annual';
@@ -42,9 +42,9 @@ import { LanguageProvider } from './context/LanguageContext';
 
 const Drawer = createDrawerNavigator();
 
-const CustomHeader = ({navigation}) => (
+const CustomHeader = ({ navigation }) => (
   <Flex
-    style={{width: '100%'}}
+    style={{ width: '100%' }}
     bg={'#F0F0F0'}
     height={'60px'}
     justifyContent={'space-between'}
@@ -53,7 +53,7 @@ const CustomHeader = ({navigation}) => (
     px={2}>
     <TouchableWithoutFeedback
       onPress={() => navigation.openDrawer()}
-      style={{paddingTop: 10}}>
+      style={{ paddingTop: 10 }}>
       <Image
         source={require('./Assests/humb.png')}
         alt="Menu Icon"
@@ -69,49 +69,50 @@ function App() {
   LogBox.ignoreLogs([ 'Warning: ...' ]);
   LogBox.ignoreAllLogs();
   return (
-    <NativeBaseProvider>
-      <LanguageProvider>
-      <SafeAreaView style={styles.safeArea}>
-      <NavigationContainer>
-        <Drawer.Navigator
-          drawerContent={props => <SideNav {...props} />}
-          screenOptions={({navigation, route}) => ({
-            header: () => {
-              if (route.name !== 'Splash') {
-                return <CustomHeader navigation={navigation} />;
-              }
-              return null;
-            },
-          })}>
-          <Drawer.Screen name="Splash" component={Splash} />
-          <Drawer.Screen name="Home" component={Home} />
-          <Drawer.Screen name="language" component={Language} />
-          <Drawer.Screen name="Certificate" component={Certificate} />
-          <Drawer.Screen name="Gallery" component={Gallery} />
-          <Drawer.Screen name="Events" component={Events} />
-          <Drawer.Screen name="About" component={About} />
-          <Drawer.Screen name="Contact" component={Contact} />
-          <Drawer.Screen name="Media" component={Media} />
-          <Drawer.Screen name="Annual Report" component={Annual} />
-          <Drawer.Screen name="Service" component={Services} />
-          <Drawer.Screen name="education" component={Education} />
-          <Drawer.Screen name="woman" component={Woman} />
-          <Drawer.Screen name="live" component={Livelihood} />
-          <Drawer.Screen name="health" component={Health} />
-          <Drawer.Screen name="careers" component={Career} />
-          <Drawer.Screen name="aid" component={Aid} />
-          <Drawer.Screen name="agriculture" component={Agriculture} />
-          <Drawer.Screen name="social" component={Social} />
-          <Drawer.Screen name="privacy" component={Privacy} />
-          <Drawer.Screen name="faq" component={Fandq} />
-          <Drawer.Screen name="Member" component={Members} />
-          <Drawer.Screen name="Provision" component={Provission} />
-          <Drawer.Screen name="Donation" component={Donation} />
-        </Drawer.Navigator>
-      </NavigationContainer>
-      </SafeAreaView>
-      </LanguageProvider>
-    </NativeBaseProvider>
+    <LanguageProvider>
+      <NativeBaseProvider>
+        <SafeAreaView style={styles.safeArea}>
+          <NavigationContainer>
+            <Drawer.Navigator
+              drawerContent={props => <SideNav {...props} />}
+              screenOptions={({ navigation, route }) => ({
+                header: () => {
+                  if (route.name !== 'Splash')
+                  {
+                    return <CustomHeader navigation={navigation} />;
+                  }
+                  return null;
+                },
+              })}>
+              <Drawer.Screen name="Splash" component={Splash} />
+              <Drawer.Screen name="Home" component={Home} />
+              <Drawer.Screen name="language" component={Language} />
+              <Drawer.Screen name="Certificate" component={Certificate} />
+              <Drawer.Screen name="Gallery" component={Gallery} />
+              <Drawer.Screen name="Events" component={Events} />
+              <Drawer.Screen name="About" component={About} />
+              <Drawer.Screen name="Contact" component={Contact} />
+              <Drawer.Screen name="Media" component={Media} />
+              <Drawer.Screen name="Annual Report" component={Annual} />
+              <Drawer.Screen name="Service" component={Services} />
+              <Drawer.Screen name="education" component={Education} />
+              <Drawer.Screen name="woman" component={Woman} />
+              <Drawer.Screen name="live" component={Livelihood} />
+              <Drawer.Screen name="health" component={Health} />
+              <Drawer.Screen name="careers" component={Career} />
+              <Drawer.Screen name="aid" component={Aid} />
+              <Drawer.Screen name="agriculture" component={Agriculture} />
+              <Drawer.Screen name="social" component={Social} />
+              <Drawer.Screen name="privacy" component={Privacy} />
+              <Drawer.Screen name="faq" component={Fandq} />
+              <Drawer.Screen name="Member" component={Members} />
+              <Drawer.Screen name="Provision" component={Provission} />
+              <Drawer.Screen name="Donation" component={Donation} />
+            </Drawer.Navigator>
+          </NavigationContainer>
+        </SafeAreaView>
+      </NativeBaseProvider>
+    </LanguageProvider>
   );
 }
 

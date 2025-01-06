@@ -12,43 +12,50 @@ import {
 import CarouselNews from './CarouselEvent';
 import CarouselEvents from './CarouselEvent';
 import CarouselCertificate from './CarouselCertificate';
+import { t } from 'i18next';
 
 const Home = ({navigation}) => {
   const data = [
     {
       id: '1',
       images: require('../Assests/homepage/im1.png'),
-      title: 'निःशुल्क स्वास्थ्य जांच',
+      title: `${t('Free_Health_Checkup')}`,
+      // title: 'निःशुल्क स्वास्थ्य जांच',
       colors: '#207FB7',
     },
     {
       id: '2',
       images: require('../Assests/homepage/im2.png'),
-      title: 'निःशुल्क मोतियाबिंद ऑपरेशन',
+      title: `${t('Free_Cataract_Surgery')}`,
+      // title: 'निःशुल्क मोतियाबिंद ऑपरेशन',
       colors: '#DB0C22',
     },
     {
       id: '3',
       images: require('../Assests/homepage/im3.png'),
-      title: 'तिपहिया साइकिल वितरण',
+      title: `${t('Tricycle_Distribution')}`,
+      // title: 'तिपहिया साइकिल वितरण',
       colors: '#08B749',
     },
     {
       id: '4',
       images: require('../Assests/homepage/im4.png'),
-      title: 'किसान भाइयों को कृषि हेतु आधुनिक यंत्र',
+      title: `${t('Modern_Agriculture_Equipments_for_Farmers')}`,
+      // title: 'किसान भाइयों को कृषि हेतु आधुनिक यंत्र',
       colors: '#FFA800',
     },
     {
       id: '5',
       images: require('../Assests/homepage/im5.png'),
-      title: 'महिलाओं को स्वावलंबी बनाने हेतु सिलाई मशीन',
+      title: `${t('Sewing_Machines_for_Women_Empowerment')}`,
+      // title: 'महिलाओं को स्वावलंबी बनाने हेतु सिलाई मशीन',
       colors: '#3F00C0',
     },
     {
       id: '6',
       images: require('../Assests/homepage/im6.png'),
-      title: 'छात्र-छात्राओं की दौड़ स्पर्धा',
+      title: `${t('Students_Race_Competition')}`,
+      // title: 'छात्र-छात्राओं की दौड़ स्पर्धा',
       colors: '#FF5800',
     },
   ];
@@ -63,7 +70,7 @@ const Home = ({navigation}) => {
       <Box>
         <Image source={item.images} alt={item.id} />
       </Box>
-      <Text width={'100%'} textAlign={'center'} color={'#FFFFFF'} fontSize={14}>
+      <Text width={'100%'} textAlign={'center'} color={'#FFFFFF'}  noOfLines={2}fontSize={14}>
         {item.title}
       </Text>
     </Flex>

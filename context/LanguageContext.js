@@ -1,11 +1,12 @@
 import React, { createContext, useState, useContext, useEffect } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import i18n from '../services/i18n';
+import i18n from '../services/i18n';  // Assuming you have the i18n setup for your app
+import Restart from 'react-native-restart';  // Import the Restart module
 
 const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
-    const [language, setLanguage] = useState('en'); 
+    const [language, setLanguage] = useState('en');
 
     useEffect(() => {
         const loadLanguage = async () => {
@@ -28,6 +29,7 @@ export const LanguageProvider = ({ children }) => {
             await AsyncStorage.setItem('appLanguage', lang); // Store the selected language
             setLanguage(lang);
             i18n.changeLanguage(lang); // Update i18n language
+            Restart.Restart(); // Restart the app to apply language change globally
         } catch (error) {
             console.error('Failed to save language to AsyncStorage:', error);
         }
