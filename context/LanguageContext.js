@@ -6,7 +6,7 @@ import Restart from 'react-native-restart';  // Import the Restart module
 const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
-    const [language, setLanguage] = useState('en');
+    const [language, setLanguage] = useState('hi');
 
     useEffect(() => {
         const loadLanguage = async () => {
