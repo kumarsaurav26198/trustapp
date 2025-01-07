@@ -20,6 +20,7 @@ import Facebook from 'react-native-vector-icons/Entypo';
 import axios from 'axios';
 import Toast from 'react-native-toast-message';
 import {TouchableOpacity} from 'react-native';
+import { t } from 'i18next';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -102,7 +103,7 @@ const Contact = () => {
           fontWeight="bold"
           textAlign="center"
           mb="6">
-          Contact Us
+         {t('Contact_us')} 
         </Heading>
         <VStack space={4}>
           <FormControl>

@@ -8,12 +8,11 @@ import {
   Flex,
 } from 'native-base';
 import { LogBox, StyleSheet, SafeAreaView } from 'react-native';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import SideNav from './Screen/SideNav';
 import Home from './Screen/Home';
 import Certificate from './Screen/Certificate';
-
 import Events from './Screen/Events';
 import About from './Screen/About';
 import Contact from './Screen/Contact';
@@ -68,47 +67,60 @@ const CustomHeader = ({ navigation }) => (
 function App() {
   LogBox.ignoreLogs([ 'Warning: ...' ]);
   LogBox.ignoreAllLogs();
+
+  const [loading, setLoading] = useState(true);
+
+  // Show splash screen for 2 seconds
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000); // 2 seconds
+    return () => clearTimeout(timer); // Clear timeout on unmount
+  }, []);
+
   return (
     <LanguageProvider>
       <NativeBaseProvider>
         <SafeAreaView style={styles.safeArea}>
           <NavigationContainer>
-            <Drawer.Navigator
-              drawerContent={props => <SideNav {...props} />}
-              screenOptions={({ navigation, route }) => ({
-                header: () => {
-                  if (route.name !== 'Splash')
-                  {
-                    return <CustomHeader navigation={navigation} />;
-                  }
-                  return null;
-                },
-              })}>
-              <Drawer.Screen name="Splash" component={Splash} />
-              <Drawer.Screen name="Home" component={Home} />
-              <Drawer.Screen name="language" component={Language} />
-              <Drawer.Screen name="Certificate" component={Certificate} />
-              <Drawer.Screen name="Gallery" component={Gallery} />
-              <Drawer.Screen name="Events" component={Events} />
-              <Drawer.Screen name="About" component={About} />
-              <Drawer.Screen name="Contact" component={Contact} />
-              <Drawer.Screen name="Media" component={Media} />
-              <Drawer.Screen name="Annual Report" component={Annual} />
-              <Drawer.Screen name="Service" component={Services} />
-              <Drawer.Screen name="education" component={Education} />
-              <Drawer.Screen name="woman" component={Woman} />
-              <Drawer.Screen name="live" component={Livelihood} />
-              <Drawer.Screen name="health" component={Health} />
-              <Drawer.Screen name="careers" component={Career} />
-              <Drawer.Screen name="aid" component={Aid} />
-              <Drawer.Screen name="agriculture" component={Agriculture} />
-              <Drawer.Screen name="social" component={Social} />
-              <Drawer.Screen name="privacy" component={Privacy} />
-              <Drawer.Screen name="faq" component={Fandq} />
-              <Drawer.Screen name="Member" component={Members} />
-              <Drawer.Screen name="Provision" component={Provission} />
-              <Drawer.Screen name="Donation" component={Donation} />
-            </Drawer.Navigator>
+            {loading ? (
+              <Splash />
+            ) : (
+              <Drawer.Navigator
+                drawerContent={props => <SideNav {...props} />}
+                screenOptions={({ navigation, route }) => ({
+                  header: () => {
+                    if (route.name !== 'Splash') {
+                      return <CustomHeader navigation={navigation} />;
+                    }
+                    return null;
+                  },
+                })}>
+                <Drawer.Screen name="Home" component={Home} />
+                <Drawer.Screen name="language" component={Language} />
+                <Drawer.Screen name="Certificate" component={Certificate} />
+                <Drawer.Screen name="Gallery" component={Gallery} />
+                <Drawer.Screen name="Events" component={Events} />
+                <Drawer.Screen name="About" component={About} />
+                <Drawer.Screen name="Contact" component={Contact} />
+                <Drawer.Screen name="Media" component={Media} />
+                <Drawer.Screen name="Annual Report" component={Annual} />
+                <Drawer.Screen name="Service" component={Services} />
+                <Drawer.Screen name="education" component={Education} />
+                <Drawer.Screen name="woman" component={Woman} />
+                <Drawer.Screen name="live" component={Livelihood} />
+                <Drawer.Screen name="health" component={Health} />
+                <Drawer.Screen name="careers" component={Career} />
+                <Drawer.Screen name="aid" component={Aid} />
+                <Drawer.Screen name="agriculture" component={Agriculture} />
+                <Drawer.Screen name="social" component={Social} />
+                <Drawer.Screen name="privacy" component={Privacy} />
+                <Drawer.Screen name="faq" component={Fandq} />
+                <Drawer.Screen name="Member" component={Members} />
+                <Drawer.Screen name="Provision" component={Provission} />
+                <Drawer.Screen name="Donation" component={Donation} />
+              </Drawer.Navigator>
+            )}
           </NavigationContainer>
         </SafeAreaView>
       </NativeBaseProvider>
@@ -117,6 +129,7 @@ function App() {
 }
 
 export default App;
+
 const styles = StyleSheet.create({
   safeArea: {
     flex: 1,

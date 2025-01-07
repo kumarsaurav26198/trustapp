@@ -43,6 +43,7 @@ import img39 from "../Assests/Final_Galley/39.jpeg";
 import img40 from "../Assests/Final_Galley/40.jpeg";
 import ModalImage from './ModalImage';
 import {TouchableOpacity} from 'react-native';
+import { t } from 'i18next';
 const Gallery = () => {
     const gallery = [
         img1,
@@ -148,7 +149,7 @@ const Gallery = () => {
             textAlign={'start'}
             width={'80%'}
             fontWeight={'bold'}>
-          Gallery
+           {t('Gallery')}
           </Text>
           <Image
             marginTop={10}

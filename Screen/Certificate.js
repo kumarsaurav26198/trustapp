@@ -26,6 +26,7 @@ import {Box, Flex, Image, Modal, Text} from 'native-base';
 import {ScrollView} from 'native-base';
 import ModalImage from './ModalImage';
 import {TouchableOpacity} from 'react-native';
+import { t } from 'i18next';
 
 const Certificate = () => {
   const images = [
@@ -103,7 +104,7 @@ const Certificate = () => {
             textAlign={'start'}
             width={'80%'}
             fontWeight={'bold'}>
-            Certification{' '}
+             {t('Certification')}
           </Text>
           <Image
             marginTop={10}

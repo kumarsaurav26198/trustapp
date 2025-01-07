@@ -49,6 +49,7 @@ import img27 from '../Assests/Final_Events/27.jpeg';
 import img28 from '../Assests/Final_Events/28.jpeg';
 import ModalImage from './ModalImage';
 import {TouchableOpacity} from 'react-native';
+import { t } from 'i18next';
 const Events = () => {
   const e1 = [
     img1,
@@ -159,7 +160,7 @@ const Events = () => {
             textAlign={'start'}
             width={'80%'}
             fontWeight={'bold'}>
-            Events{' '}
+             {t('Events')}
           </Text>
           <Image
             marginTop={10}

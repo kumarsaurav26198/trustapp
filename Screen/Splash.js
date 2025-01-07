@@ -1,23 +1,16 @@
-import {Box, Image} from 'native-base';
-import {useEffect} from 'react';
+import { Box, Image } from 'native-base';
 
-const Splash = ({navigation}) => {
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      navigation.navigate('Home');
-    }, 2000);
+const Splash = ({  }) => {
 
-    return () => clearTimeout(timeout);
-  }, [navigation]);
   return (
     <Box
       justifyContent={'center'}
       alignItems={'center'}
       background={"#FFFFFF"}
       height={'100%'}>
-      <Image source={require('../Assests/splash.png')} 
-    alt='splash'
-    />
+      <Image source={require('../Assests/splash.png')}
+        alt='splash'
+      />
     </Box>
   );
 };

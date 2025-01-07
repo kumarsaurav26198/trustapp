@@ -1,6 +1,7 @@
 import React from 'react';
 import {View, Text, Box, ScrollView, Heading} from 'native-base';
 import {Linking} from 'react-native';
+import { t } from 'i18next';
 const Privacy = () => {
   const handlePress = () => {
     Linking.openURL('https://lsstrust.org.in/');
@@ -15,7 +16,7 @@ const Privacy = () => {
             mb={4}
             textAlign={'center'}
             style={{cursor: 'pointer'}}>
-            Privacy & Policy
+            {t('Privacy_Policy')}
           </Text>
           <Text fontSize={16} lineHeight="lg" color="gray.600" mb="4">
             LSSF TRUST is committed to the ethical collection, retention, and

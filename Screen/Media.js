@@ -14,6 +14,7 @@ import {ScrollView} from 'native-base';
 import ModalImage from './ModalImage';
 import {Dimensions, StyleSheet, TouchableOpacity} from 'react-native';
 import WebView from 'react-native-webview';
+import { t } from 'i18next';
 
 const Media = () => {
   const images = [c1, c2, c3, c4, c5, c6, c7, c8];
@@ -69,7 +70,7 @@ const Media = () => {
             textAlign={'start'}
             width={'80%'}
             fontWeight={'bold'}>
-            Media{' '}
+           {t('Media')}
           </Text>
           <Image
             marginTop={10}
