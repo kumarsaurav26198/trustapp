@@ -3,6 +3,11 @@ import {View, Text, Box, ScrollView, Heading} from 'native-base';
 import {Linking} from 'react-native';
 import { t } from 'i18next';
 const Privacy = () => {
+  const Privacy_Policy_collection_items = t('Privacy_Policy_collection_items', { returnObjects: true });
+
+  console.log(Privacy_Policy_collection_items); 
+
+  console.log(Privacy_Policy_collection_items)
   const handlePress = () => {
     Linking.openURL('https://lsstrust.org.in/');
   };
@@ -19,15 +24,13 @@ const Privacy = () => {
             {t('Privacy_Policy')}
           </Text>
           <Text fontSize={16} lineHeight="lg" color="gray.600" mb="4">
-            LSSF TRUST is committed to the ethical collection, retention, and
-            use of information provided by you on our website{' '}
+          {t('Privacy_Policy_heading1')} { ''}
             <Text
               style={{color: 'blue', textDecorationLine: 'underline'}}
               onPress={handlePress}>
               www.lsstrust.org.in
             </Text>{' '}
-            ('Site'). This Privacy Policy outlines how we collect, use, and
-            protect your personal information.
+            {t('Privacy_Policy_heading2')}
           </Text>
 
           <Box>
@@ -37,20 +40,24 @@ const Privacy = () => {
               mb="2"
               color="gray.700"
               fontWeight="bold">
-              1. Collection of Personal Information
+          {t('Privacy_Policy_collection_title')}
             </Heading>
             <Text fontSize="md" lineHeight="lg" color="gray.600" mb="4">
-              We may collect the following personal information:
+            {t('Privacy_Policy_collection_content')}
             </Text>
             <Text>
-              <Text>• </Text>Name{'\n'}
+            {Array.isArray(Privacy_Policy_collection_items) &&
+              Privacy_Policy_collection_items.map((item, index) => (
+                <Text key={index}>• {item} :- {`\n`}</Text>
+              ))}
+              {/* <Text>• </Text>Name{'\n'}
               <Text>• </Text>Age{'\n'}
               <Text>• </Text>Occupation{'\n'}
               <Text>• </Text>Email and postal address{'\n'}
               <Text>• </Text>Telephone number{'\n'}
               <Text>• </Text>Payment processing details{'\n'}
               <Text>• </Text>Limited personal details{'\n'}
-              <Text>• </Text>Any other data the website may require
+              <Text>• </Text>Any other data the website may require */}
             </Text>
           </Box>
 

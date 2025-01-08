@@ -121,6 +121,38 @@
     "Multiple Payment Options: Offer various payment methods to cater to different donors.",
     "Regular Updates: Keep donors informed about how their contributions are making a difference.",
     "Engage on Social Media: Use social media platforms to reach a broader audience and encourage donations."
+  ],
+
+
+  "Privacy_Policy_heading1": "LSSF TRUST is committed to the ethical collection, retention, and use of information provided by you on our website",
+  "Privacy_Policy_heading2": "('Site'). This Privacy Policy outlines how we collect, use, and protect your personal information.",
+  "Privacy_Policy_collection_title": "1. Collection of Personal Information",
+  "Privacy_Policy_collection_content": "We may collect the following personal information:",
+  "Privacy_Policy_collection_items": [
+    "Name",
+    "Age",
+    "Occupation",
+    "Email and postal address",
+    "Telephone number",
+    "Payment processing details",
+    "Limited personal details",
+    "Any other data the website may require"
+  ],
+  "Privacy_Policy_use_content": "LSSF TRUST uses personal information for the following purposes:",
+  "Privacy_Policy_use_items": [
+    "Sending newsletters, updates, and promotional materials related to our activities.",
+    "Processing donations and providing receipts.",
+    "Maintaining an internal confidential database of all personal information collected from visitors to the Site.",
+    "Evaluating and administering the Site's activities, responding to concerns, and assessing visitor trends."
+  ],
+
+  "Privacy_Policy_use_title2": "2. Use of Personal Information",
+  "Privacy_Policy_collection_content2": " LSSF TRUST uses personal information for the following purposes:",
+  "Privacy_Policy_collection_items2": [
+    "Sending newsletters, updates, and promotional materials related to our activities.",
+    "Processing donations and providing receipts.",
+    "Maintaining an internal confidential database of all personal information collected from visitors to the Site.",
+    "Evaluating and administering the Site's activities, responding to concerns, and assessing visitor trends."
   ]
 
 }
