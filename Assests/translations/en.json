@@ -148,11 +148,44 @@
 
   "Privacy_Policy_use_title2": "2. Use of Personal Information",
   "Privacy_Policy_collection_content2": " LSSF TRUST uses personal information for the following purposes:",
+
   "Privacy_Policy_collection_items2": [
     "Sending newsletters, updates, and promotional materials related to our activities.",
     "Processing donations and providing receipts.",
     "Maintaining an internal confidential database of all personal information collected from visitors to the Site.",
     "Evaluating and administering the Site's activities, responding to concerns, and assessing visitor trends."
-  ]
+  ],
+  "Privacy_Policy_use_title3": "3. Disclosure of Personal Information",
+  "Privacy_Policy_collection_content3": "Access to personal information is limited to authorized personnel within LSSF TRUST. We may share personal information with third parties involved in the operation of our Site, such as payment processors or email service providers. LSSF TRUST may also disclose personal information if required by law or to protect the rights and property of LSSF TRUST and its stakeholders.",
+  "Privacy_Policy_use_title4": "4. Security",
+  "Privacy_Policy_collection_content4": "LSSF TRUST uses appropriate security measures to protect your personal information. However, we cannot guarantee the absolute security of your data.",
+  "Privacy_Policy_use_title5": "5. Copyright Protection",
+  "Privacy_Policy_collection_content5": "All content on this Site, including graphics, text, logos, and software, is the property of LSSF TRUST and protected by copyright laws. Unauthorized reproduction or use of the content is prohibited.",
+  "Privacy_Policy_use_title6": "6. Disclaimer",
+  "Privacy_Policy_collection_content6": "LSSF TRUST does not guarantee the accuracy or completeness of the information on the Site. Use of the Site and its content is at your own risk.",
+  "Privacy_Policy_use_title7": "7. Changes to this Privacy Policy",
+  "Privacy_Policy_collection_content7": "LSSF TRUST reserves the right to update this Privacy Policy at any time. Changes will be posted on this page with an updated effective date.",
+
+
+
+  "Term_condi__heading1": " Terms & Conditions",
+  "Term_condi__heading2": " Welcome to",
+  "Term_condi__heading3": "By using our website, you agree to comply with and be bound by the following terms and conditions:",
+  "Term_condi__collection_title": "1. Use of the Website",
+  "Term_condi__collection_content": "The content on this Site is for general information and use only. It is subject to change without notice. You agree to use the Site for lawful purposes only.",
+
+  "Term_condi__use_title2": "2. Intellectual Property",
+  "Term_condi__collection_content2": "All materials on this Site, including text, images, and software, are the property of LSSF TRUST. Unauthorized use or reproduction is prohibited.",
+
+  "Term_condi__use_title3": "3. Limitation of Liability",
+  "Term_condi__collection_content3": "LSSF TRUST does not warrant the accuracy, completeness, or suitability of the information on this Site for any particular purpose. Your use of the Site is at your own risk. We are not liable for any damages arising from your use of the Site.",
+  "Term_condi__use_title4": "4. External Links",
+  "Term_condi__collection_content4": "The Site may contain links to other websites. LSSF TRUST is not responsible for the content or privacy practices of these external sites.",
+  "Term_condi__use_title5": " 5. Governing Law",
+  "Term_condi__collection_content5": "These terms and conditions are governed by the laws of India. Any disputes arising from the use of the Site will be subject to the jurisdiction of the courts in India.",
+  "Term_condi__use_title6": "6. Changes to Terms & Conditions",
+  "Term_condi__collection_content6": "LSSF TRUST reserves the right to modify these terms and conditions at any time. Changes will be posted on this page with an updated effective date.",
+  "Term_condi__by": "By using our Site, you agree to these terms and conditions. If you do not agree, please do not use our Site.",
+  "Term_condi__by2": "For any questions or concerns, please contact us at"
 
 }
