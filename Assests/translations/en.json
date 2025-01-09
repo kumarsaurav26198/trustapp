@@ -63,21 +63,20 @@
   "about15": "On the auspicious occasion of weddings of daughters and sisters, the trust provides essential materials for their bright future and continues to do so in the future as well.",
   "about16": "To ensure safe and convenient travel for pedestrians during nighttime, the trust has installed LED lights at key intersections and crossroads.",
 
+  "why_Donate": "Why Should You Donate to LSSF Trust?",
+  "h1_Donate": "Education for All",
+  "h2_Donate": "Empowering Farmers with Modern Machinery",
+  "h3_Donate": "Women's Empowerment Through Skill Development",
+  "h4_Donate": "Encouraging Sports and Fitness",
+  "h5_Donate": "Supporting Girls' Marriages and Social Welfare",
+  "h6_Donate": "A Holistic Approach to Community Development",
 
-  "why_Donate":"Why Should You Donate to LSSF Trust?",
-  "h1_Donate":"Education for All",
-  "h2_Donate":"Empowering Farmers with Modern Machinery",
-  "h3_Donate":"Women's Empowerment Through Skill Development",
-  "h4_Donate":"Encouraging Sports and Fitness",
-  "h5_Donate":"Supporting Girls' Marriages and Social Welfare",
-  "h6_Donate":"A Holistic Approach to Community Development",
-  
-  "h1_title":"Education is a powerful tool for breaking the cycle of poverty. At LSSF Trust, we provide educational resources, scholarships, and support to underprivileged children, ensuring they have access to quality education. Your donation can help us create a brighter future for these young minds, equipping them with the skills and knowledge they need to succeed.",
-"h2_title":"Farmers are the backbone of our nation, and at LSSF Trust, we strive to support them with modern agricultural machinery. By providing tools and equipment, we help farmers increase their productivity and income, leading to improved livelihoods and food security. Your donation can make a difference in the lives of countless farmers, helping them achieve sustainable growth.",
-"h3_title":"We believe in empowering women to achieve financial independence and self-sufficiency. Our programs provide women with training in skills like sewing and tailoring, allowing them to earn a livelihood and support their families. Additionally, we distribute blankets in villages to ensure warmth and comfort for all. Your contribution can help us continue to uplift and empower women in our communities.",
-"h4_title":"At LSSF Trust, we organize running championships and provide cash prizes to encourage physical fitness and sportsmanship among youth and adults. These events not only promote a healthy lifestyle but also foster a sense of community and achievement. Your donation can support these events and motivate more people to participate in sports and stay active.",
-"h5_title":"We believe in supporting young women and their families during important life events. Our programs provide financial assistance for girls' marriages, helping them start their new journey with dignity and support. Additionally, we offer various social welfare programs to assist those in need, ensuring that everyone has access to basic necessities and opportunities.",
-"h6_title":"LSSF Trust is dedicated to addressing the diverse needs of our communities through a holistic approach. From providing educational resources and agricultural support to empowering women and promoting health and wellness, our initiatives aim to create a positive and lasting impact.",
+  "h1_title": "Education is a powerful tool for breaking the cycle of poverty. At LSSF Trust, we provide educational resources, scholarships, and support to underprivileged children, ensuring they have access to quality education. Your donation can help us create a brighter future for these young minds, equipping them with the skills and knowledge they need to succeed.",
+  "h2_title": "Farmers are the backbone of our nation, and at LSSF Trust, we strive to support them with modern agricultural machinery. By providing tools and equipment, we help farmers increase their productivity and income, leading to improved livelihoods and food security. Your donation can make a difference in the lives of countless farmers, helping them achieve sustainable growth.",
+  "h3_title": "We believe in empowering women to achieve financial independence and self-sufficiency. Our programs provide women with training in skills like sewing and tailoring, allowing them to earn a livelihood and support their families. Additionally, we distribute blankets in villages to ensure warmth and comfort for all. Your contribution can help us continue to uplift and empower women in our communities.",
+  "h4_title": "At LSSF Trust, we organize running championships and provide cash prizes to encourage physical fitness and sportsmanship among youth and adults. These events not only promote a healthy lifestyle but also foster a sense of community and achievement. Your donation can support these events and motivate more people to participate in sports and stay active.",
+  "h5_title": "We believe in supporting young women and their families during important life events. Our programs provide financial assistance for girls' marriages, helping them start their new journey with dignity and support. Additionally, we offer various social welfare programs to assist those in need, ensuring that everyone has access to basic necessities and opportunities.",
+  "h6_title": "LSSF Trust is dedicated to addressing the diverse needs of our communities through a holistic approach. From providing educational resources and agricultural support to empowering women and promoting health and wellness, our initiatives aim to create a positive and lasting impact.",
 
   "heading_FAQ": "Online Donations and Fundraising FAQs",
   "question_FAQ1": "How can I donate money online to LSSF TRUST?",
@@ -123,7 +122,6 @@
     "Engage on Social Media: Use social media platforms to reach a broader audience and encourage donations."
   ],
 
-
   "Privacy_Policy_heading1": "LSSF TRUST is committed to the ethical collection, retention, and use of information provided by you on our website",
   "Privacy_Policy_heading2": "('Site'). This Privacy Policy outlines how we collect, use, and protect your personal information.",
   "Privacy_Policy_collection_title": "1. Collection of Personal Information",
@@ -166,8 +164,6 @@
   "Privacy_Policy_use_title7": "7. Changes to this Privacy Policy",
   "Privacy_Policy_collection_content7": "LSSF TRUST reserves the right to update this Privacy Policy at any time. Changes will be posted on this page with an updated effective date.",
 
-
-
   "Term_condi__heading1": " Terms & Conditions",
   "Term_condi__heading2": " Welcome to",
   "Term_condi__heading3": "By using our website, you agree to comply with and be bound by the following terms and conditions:",
@@ -186,6 +182,23 @@
   "Term_condi__use_title6": "6. Changes to Terms & Conditions",
   "Term_condi__collection_content6": "LSSF TRUST reserves the right to modify these terms and conditions at any time. Changes will be posted on this page with an updated effective date.",
   "Term_condi__by": "By using our Site, you agree to these terms and conditions. If you do not agree, please do not use our Site.",
-  "Term_condi__by2": "For any questions or concerns, please contact us at"
+  "Term_condi__by2": "For any questions or concerns, please contact us at",
 
+  "services_title1": "Education",
+  "services_title2": "Women Uplifment",
+  "services_title3": "Livelihoods",
+  "services_title4": "Health Services",
+  "services_title5": "Social Services",
+  "services_title6": "Careers",
+  "services_title7": "Aid to Poor",
+  "services_title8": "Agriculture & Farmers Wellfare",
+
+  "services_content1": "The Helping Hand Foundation runs a nationwide initiative focused on offering fundamental education to children from disadvantaged backgrounds. Education acts as a tool and a goal for improving life quality. It equips people with the skills needed for earning a living and broadens their understanding of various topics—ranging from healthcare to proper social conduct and recognizing their rights. Consequently, this process aids individuals in becoming more responsible and informed citizens.",
+  "services_content2": "In an age of modernization, development, and change, women, alongside other societal groups, have stepped up to endorse new strategies that aim to create a robust, self-sufficient society. India's development has achieved the second highest ranking, a feat that would have been impossible without the contributions of women. However, as this is a period of transformation, the status of women in India is also evolving. To accelerate the growth of women, every part of society must come together to support and uplift them.",
+  "services_content3": "Livelihood strategies and programs are crafted based on people's strengths, aiming to provide a quality life and achieve sustainable living standards. These programs focus on empowering individuals, making them resilient to challenges, especially during emergencies from a social perspective. People learn to manage external impacts independently, without relying on outside support. The goal is to adopt sustainable livelihood frameworks and positively influence lives in a better way.",
+  "services_content4": "Health is a complex interplay of economic, epidemiological, demographic, and institutional factors. This variety in healthcare provision can enhance the government's policy leadership and financial responsibility. Among the private sector contributors, non-governmental organizations (NGOs) are particularly important. Our organization focuses on the role of NGOs in healthcare: their involvement in delivering and financing health services, their strengths and weaknesses, and public policies to improve their effectiveness in the health sector.",
+  "services_content5": "Sociological sciences emphasize their importance in enhancing social integration, implementation of the principle of subsidiarity, building civil society, social dialogue and participatory democracy. Provision of services includes medical, social and psychological services as well as, integration activities, care and nursing, material and financial support, educational and information services and training. Health advocacy is a combination of individual and social actions designed to gain political commitment, policy support, social acceptance and systems support for a particular health goal or program. An important task carried out by NGOs is participation in the formation of health policy. The increasing role of NGOs in providing social services and the participation in political processes, result in the need to confirm the validity and credibility of their operation.",
+  "services_content6": "People, employees, and career-related services are vital for the success of any charity. In the Human Resources and Personnel department, you'll ensure that the charity cares for its people and their well-being, including training, development, and contractual arrangements. If you enjoy working with people, this is an excellent area for you.",
+  "services_content7": "AID TO POOR is a step towards providing legal and social services to the weaker and poorer sections of society. It aims to overcome prevailing conditions by fighting for and providing legal support to uplift these communities. This initiative includes promoting education, imparting knowledge about social grants supported by the government, creating employment opportunities, and offering scholarship facilities. These efforts are aimed at rapidly transforming and eradicating poverty globally.",
+  "services_content8": "Understanding the impact of NGOs on agricultural development is crucial, especially considering that violent conflicts, whether civil or military, have severely disrupted agriculture in many parts of Africa and other regions globally. These conflicts have led to inadequate agricultural research capacity due to market inefficiencies and the breakdown of extension services, limiting public access to agricultural resources and reducing the use of farm inputs, which ultimately diminishes agricultural productivity."
 }
